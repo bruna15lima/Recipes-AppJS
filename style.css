@@ -26,6 +26,9 @@ img {
 
 .mobile-container {
   background-color: #fff;
+  box-shadow: 0 0 10px 2px #3333331A;
+  border-radius: 3px;
+  overflow: hidden;
   width: 40rem;
 }
 
@@ -51,23 +54,59 @@ header button {
 }
 
 .fav-container {
+  background-color: rgb(238, 234, 234);
   padding: 1rem;
   text-align: center;
 }
 
 .fav-meals {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
   list-style-type: none;
   padding: 0;
 }
 
 .fav-meals li {
-
+  width: 8rem;
+  margin: 5px;
 }
 
 .fav-meals li img {
+  border: 3px solid rgb(248, 245, 245);
   border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px #3333331A;
   object-fit: cover;
-  height: 10rem;
-  width: 10rem;
+  height: 7rem;
+  width: 7rem;
+}
+
+
+.fav-meals li span {
+
+  font-size: 0.9rem;
+}
+
+.meal {
+  border-radius: 3px;
+  box-shadow: 0 0 10px 2px #3333331A;
+  margin: 1.5rem;
+}
+
+.meal-header {
+  position: relative;
+}
+
+.meal-header .random {
+  position: absolute;
+}
+.meal-header img {
+  position: absolute;
+}
+
+.meal-body {
+
 }
