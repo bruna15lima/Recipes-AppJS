@@ -56,9 +56,14 @@ header button {
 }
 
 .fav-container {
-  background-color: rgb(238, 234, 234);
-  padding: 1rem;
+  background-color: rgb(125, 196, 146);
+  padding: 0.25rem 1rem;
   text-align: center;
+}
+.fav-container h3 {
+  color: #eee;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
 }
 
 .fav-meals {
@@ -119,5 +124,30 @@ header button {
 }
 
 .meal-body {
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
 }
+
+.meal-body h4 {
+  margin: 0; 
+}
+
+.meal-body .fav-btn {
+  border: none;
+  background-color: transparent;
+  color: rgb(185, 183, 183);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.meal-body .fav-btn-active {
+  border: none;
+  background-color: transparent;
+  color: rgb(207, 125, 125);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
+
